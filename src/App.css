@@ -1,1 +1,30 @@
+.introdiv {
+    background-color: #fff9e7;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 60px;
+    z-index: -1;
+    padding: 20px;
+    border-radius: 20px;
+}
 
+.introdiv2 {
+    background: url(./images/introbox.svg);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    background-position: right right;
+}
+
+@media (max-width: 500px) {
+    .introdiv {
+        right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .introimg {
+        margin-top: 20px;
+        height: 300px !important;
+    }
+}

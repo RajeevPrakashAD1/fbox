@@ -1,15 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 import cart from '../../images/cart.svg';
 
 const Cart = () => {
 	return (
 		<Cartdiv>
-			<CartCircle>
-				<img src={cart} alt="ca" />
-				<CartText>Go To cart</CartText>
-			</CartCircle>
+			<Link to="/cart">
+				<CartCircle>
+					<img src={cart} alt="ca" />
+					<CartText>Go To cart</CartText>
+				</CartCircle>
+			</Link>
 		</Cartdiv>
 	);
 };
