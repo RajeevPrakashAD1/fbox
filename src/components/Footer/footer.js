@@ -31,6 +31,7 @@ const Footerdiv = styled.div`
 	height: 300px;
 	background: url(${(props) => props.img});
 	color: white;
+	margin-top: 30px;
 	.pp {
 		display: flex;
 		flex-direction: column;
@@ -66,7 +67,10 @@ const Footerdiv = styled.div`
 		margin-top: 200px;
 		.git {
 			flex-direction: column;
-			padding-top: 20px;gi 
+			padding-top: 20px;
+		}
+		input {
+			width: 200px;
 		}
 	}
 `;

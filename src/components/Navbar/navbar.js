@@ -17,7 +17,7 @@ const MyNavbar = () => {
 		<React.Fragment>
 			<Navbar collapseOnSelect expand="lg">
 				<Container>
-					<Navbar.Brand href="#home">
+					<Navbar.Brand href="/">
 						<NavLogo img={logo} />
 					</Navbar.Brand>
 
@@ -25,16 +25,16 @@ const MyNavbar = () => {
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="me-auto" />
 						<Nav>
-							<Nav.Link href="#features">
+							<Nav.Link href="/">
 								<NavIcons img={n1} name={'home'} />
 							</Nav.Link>
-							<Nav.Link href="#features">
+							<Nav.Link href="/">
 								<NavIcons img={n2} name={'About'} />
 							</Nav.Link>
-							<Nav.Link href="#features">
+							<Nav.Link href="/">
 								<NavIcons img={n3} name={'Shop'} />
 							</Nav.Link>
-							<Nav.Link href="#features">
+							<Nav.Link href="/">
 								<NavIcons img={n4} name={'Login'} />
 							</Nav.Link>
 						</Nav>
